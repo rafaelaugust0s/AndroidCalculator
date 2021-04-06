@@ -286,7 +286,7 @@
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/black"
-                android:onClick="deleteEvent"
+                android:onClick="numberEvent"
                 android:text="◁"
                 android:textColor="@color/white"
                 android:textSize="15pt">
@@ -294,13 +294,14 @@
             </androidx.appcompat.widget.AppCompatButton>
 
             <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnPlusMinus"
                 android:layout_width="30pt"
                 android:layout_height="30pt"
                 android:layout_marginRight="1pt"
                 android:layout_weight="1"
                 android:background="@color/black"
                 android:onClick="numberEvent"
-                android:text="◁"
+                android:text="+/-"
                 android:textColor="@color/white"
                 android:textSize="15pt">
 
